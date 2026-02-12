@@ -24,7 +24,7 @@ const experiences = [
         title: "Full Stack Developer (MERN & React Native)",
         company: "DreamAlle Solutions",
         location: "Remote",
-        period: "Aug 2024 – Present",
+        period: "Aug 2024 – Sep 2025",
         type: "Part Time",
         color: "blue",
         active: true,
