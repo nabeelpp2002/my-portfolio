@@ -1,0 +1,14 @@
+{
+    "name": "Nabeel PP — Full Stack Developer",
+    "short_name": "Nabeel PP",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ],
+    "theme_color": "#050505",
+    "background_color": "#050505",
+    "display": "standalone"
+}
