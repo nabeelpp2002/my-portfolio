@@ -3,6 +3,24 @@ import { FaBriefcase, FaMapMarkerAlt } from "react-icons/fa";
 
 const experiences = [
     {
+        title: "Full Stack Developer Intern",
+        company: "Geeky Wolf",
+        location: "Remote",
+        period: "Oct 2025 – Feb 2026",
+        type: "Internship",
+        color: "indigo",
+        active: true,
+        description: [
+            "Worked on the ControlQore ERP system designed for construction companies",
+            "Developed and maintained frontend modules using Angular for responsive and dynamic UIs",
+            "Implemented backend services using ASP.NET and .NET for business logic and data handling",
+            "Integrated APIs and managed database operations to support ERP functionalities",
+            "Collaborated with the dev team to enhance performance, usability, and reliability",
+            "Participated in debugging, testing, and deploying ERP modules",
+        ],
+        tech: ["Angular", "ASP.NET", ".NET", "SQL", "REST APIs"],
+    },
+    {
         title: "Full Stack Developer (MERN & React Native)",
         company: "DreamAlle Solutions",
         location: "Remote",
@@ -18,24 +36,6 @@ const experiences = [
             "Collaborated in Agile teams using GitHub workflows, ensuring high-quality, production-ready deliverables",
         ],
         tech: ["MERN Stack", "React Native", "JWT", "GraphQL", "WebSockets", "Firebase", "Vercel"],
-    },
-    {
-        title: "Full Stack Developer Intern",
-        company: "Geeky Wolf",
-        location: "Remote",
-        period: "Oct 2025 – Feb 2026",
-        type: "Internship",
-        color: "indigo",
-        active: false,
-        description: [
-            "Worked on the ControlQore ERP system designed for construction companies",
-            "Developed and maintained frontend modules using Angular for responsive and dynamic UIs",
-            "Implemented backend services using ASP.NET and .NET for business logic and data handling",
-            "Integrated APIs and managed database operations to support ERP functionalities",
-            "Collaborated with the dev team to enhance performance, usability, and reliability",
-            "Participated in debugging, testing, and deploying ERP modules",
-        ],
-        tech: ["Angular", "ASP.NET", ".NET", "SQL", "REST APIs"],
     },
     {
         title: "Dotnet Full Stack Development Trainee",
