@@ -3,13 +3,30 @@ import { FaBriefcase, FaMapMarkerAlt } from "react-icons/fa";
 
 const experiences = [
     {
+        title: "Full Stack Developer (MERN & React Native)",
+        company: "DreamAlle Solutions",
+        location: "Remote",
+        period: "Aug 2024 – Present",
+        type: "Part Time",
+        color: "blue",
+        active: true,
+        description: [
+            "Engineered scalable full-stack applications using the MERN stack (MongoDB, Express.js, React.js, Node.js), optimizing performance and maintainability",
+            "Developed and published cross-platform mobile applications with React Native, leveraging reusable components and shared APIs",
+            "Implemented secure authentication and authorization (JWT, OAuth) and integrated RESTful/GraphQL APIs with real-time features (WebSockets)",
+            "Deployed applications to cloud platforms (Vercel, Render, Firebase) ensuring availability, scalability, and smooth experience",
+            "Collaborated in Agile teams using GitHub workflows, ensuring high-quality, production-ready deliverables",
+        ],
+        tech: ["MERN Stack", "React Native", "JWT", "GraphQL", "WebSockets", "Firebase", "Vercel"],
+    },
+    {
         title: "Full Stack Developer Intern",
         company: "Geeky Wolf",
         location: "Remote",
         period: "Oct 2025 – Feb 2026",
         type: "Internship",
         color: "indigo",
-        active: true,
+        active: false,
         description: [
             "Worked on the ControlQore ERP system designed for construction companies",
             "Developed and maintained frontend modules using Angular for responsive and dynamic UIs",
@@ -82,6 +99,13 @@ const experiences = [
 ];
 
 const colorMap = {
+    blue: {
+        dot: "bg-blue-500",
+        dotRing: "bg-blue-500/20",
+        line: "from-blue-500/40",
+        badge: "bg-blue-500/10 text-blue-300 border-blue-500/20",
+        tag: "bg-blue-500/10 text-blue-300 border-blue-500/20",
+    },
     indigo: {
         dot: "bg-indigo-500",
         dotRing: "bg-indigo-500/20",
